@@ -8,7 +8,7 @@ import java.util.regex.*;
 
 public class Test {   
 
-	double mealCost = 12;
+	double mealCost = 14;
 	double tipPercent = 20;
 	double taxPercent = 8;
 	

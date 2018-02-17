@@ -23,7 +23,7 @@ public class Day4GuessTheNumber {
 			} else if (move < theNUMBER) {
 				System.out.println("Your number is too small");
 			} else {
-				System.out.println("YOU GOT IT BRO");
+				System.out.println("YOU GOT IT BRO!");
 				break;
 			}
 		}

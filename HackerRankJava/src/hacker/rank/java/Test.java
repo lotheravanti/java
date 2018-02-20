@@ -18,10 +18,7 @@ public class Test {
     double total = mealCost + tip + tax;
     int totalCost = (int) Math.round(total);
     
-    public static void multiply() {
-        
-    }
-    }
+       
 
 
     
@@ -33,7 +30,7 @@ public class Test {
 
         Test food = new Test();
         System.out.println(food.totalCost);
-        multiply();
+        
 
     }
 }

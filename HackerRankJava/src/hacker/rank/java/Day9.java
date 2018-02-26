@@ -18,6 +18,8 @@ public class Day9 {
 		else {
 			return n + Summation(n-1);
 		}
+		
+		// return (n == 0) ? 0 : n + Summation(n-1);
 	}
 	
 	public static int Factorial(int n) {
@@ -26,6 +28,8 @@ public class Day9 {
 		} else {
 			return n * Factorial(n-1);
 		}
+		
+		// return (n == 1) ? 1 : n * Factorial(n - 1);
 	}
 	
 	public static int Exponentiation(int n, int p) {
@@ -34,12 +38,16 @@ public class Day9 {
 		} else {
 			return n * Exponentiation(n,p-1);
 		}
+		// return (p == 0) ? 1 : n * Exponentiation(n,p-1);
+		
 	}
+		
 	
 	public static void main(String[] args) {
 			
 		System.out.println(Summation(5));
 		System.out.println(Factorial(5));
-		System.out.println(Exponentiation(3,2));
+		System.out.println(Exponentiation(5,3));
+		
 	}
 }
